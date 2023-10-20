@@ -1,13 +1,39 @@
 import 'package:flutter/material.dart';
 
-class BiodataBody extends Column {
-  Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-
-    );
-  }
-}
+// class BiodataBody extends Column {
+//   Widget build(BuildContext context) {
+//     return Column(
+//       mainAxisAlignment: MainAxisAlignment.center,
+//       children: <Widget>[
+//         Row(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: <Widget>[
+//             Container(
+//               width: 110.0,
+//               height: 100.0,
+//               decoration: BoxDecoration(
+//                 color: Colors.white,
+//                 borderRadius: BorderRadius.circular(20.0)
+//               ),
+//               child: FlutterLogo(
+//                 size: 100.0,
+//               ),
+//             ),
+//             SizedBox(width: 30.0),
+//             Column(
+//               crossAxisAlignment: CrossAxisAlignment.start,
+//               children: <Widget> [
+//                 Text('I Called a'),
+//                 Text('Flutter Logo Widget')
+//                 ]
+//             ),
+//           ],
+//         ),
+//         Biodata(title: 'Biodata')
+//       ],
+//     );
+//   }
+// }
 
 class Biodata extends StatelessWidget {
   const Biodata({super.key, required this.title});
