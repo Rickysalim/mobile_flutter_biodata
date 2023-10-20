@@ -85,7 +85,7 @@ class ShapeCalculation extends State<HomePage> {
         }
       case "LUAS LAYANG-LAYANG":
         {
-          _result = _input1 * _input2;
+          _result = 0.5 * _input1 * _input2;
         }
       case "LUAS LINGKARAN":
         {
