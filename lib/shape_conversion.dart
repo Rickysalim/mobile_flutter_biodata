@@ -121,7 +121,7 @@ class ShapeCalculation extends State<HomePage> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Konversi"),
+          title: Text("Kalkulator Luas Bangun Datar "),
           backgroundColor: Colors.lightBlue,
         ),
         drawer: Drawer(
